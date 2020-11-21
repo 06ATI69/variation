@@ -1,0 +1,85 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('assets/stage-light2.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.head, .links {
+  text-align: center;
+}
+.head {
+  width: 95%;
+  margin: 0 auto;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .4);
+  border-radius: 45px;
+  box-shadow: hsla(240, 100%, 85%, .8) 10px 10px 80px;
+}
+.profile-image {
+  margin-top: 30px;
+  margin-left: -450px;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 700px;
+  max-width: calc(100vw - 10px);
+}
+.name-headline {
+  margin-top: 30px;
+  margin-left: -45px;
+}
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+.about {
+  position: fixed;
+}
+.head {
+  margin-bottom: 10%;
+}
+a {
+  color: #5200cc;
+  font-size: 35px;
+}
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1rem;
+}
+.content {
+  margin-top: 4px;
+  margin-right: -400px;
+}
+  padding: 5% 10%;
+}
