@@ -22,10 +22,10 @@ body {
   margin: 0 auto;
 }
 img {
-  width: 120px;
-  height: 120px;
-  border-radius: 20%;
-  padding: 1px;
+  width: 12%;
+  height: 12%;
+  border-radius: 20px;
+  padding: 0.1428%;
   background-color: #666;
   filter: grayscale(50%);
 }
@@ -40,19 +40,19 @@ img:hover {
   box-shadow: hsla(240, 100%, 85%, .8) 10px 10px 80px;
 }
 .profile-image {
-  margin-top: 30px;
-  margin-left: -450px;
+  margin-top: 4.285%;
+  margin-left: -64.285%;
 }
 
 /* Pozicionálás */
 
 .profile-card {
-  width: 700px;
+  width: 51.2445%;
   max-width: calc(100vw - 10px);
 }
 .name-headline {
-  margin-top: 30px;
-  margin-left: -45px;
+  margin-top: 4.285%;
+  margin-left: -7.142%;
 }
 /* Contact links */
 
@@ -71,15 +71,13 @@ li {
 }
 a {
   color: #5200cc;
-  font-size: 35px;
+  font-size: 2.1875rem;
 }
 p {
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 1rem;
 }
 .content {
-  margin-top: 4px;
-  margin-right: -400px;
-}
-  padding: 5% 10%;
+  margin-top: 0.57142%;
+  margin-right: -57.142%;
 }
